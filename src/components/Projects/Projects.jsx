@@ -121,9 +121,9 @@ function Projects() {
 
   return (
     <>
-      <div className={css.wrapper}>
-        <Customers addNewCustomer={addNewCustomer} />
-      </div>
+      {/* <div className={css.wrapper}> */}
+      <Customers addNewCustomer={addNewCustomer} />
+      {/* </div> */}
 
       <div className={css.wrapper}>
         <form className={css.wrapperForm} onSubmit={handleSubmit}>
